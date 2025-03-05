@@ -31,7 +31,7 @@ func main() {
 	app := &cli.App{ //nolint: exhaustruct
 		Name:                 "nhost",
 		EnableBashCompletion: true,
-		Version:              Version,
+		Version:              "v1.29.3",
 		Description:          "Nhost CLI tool",
 		Commands: []*cli.Command{
 			config.Command(),
